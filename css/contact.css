@@ -2,8 +2,23 @@
   display: flex;
 }
 
+#contact {
+  padding: 1rem;
+}
+
 form {
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+form>fieldset {
+  display: flex;
+  flex-direction: column;
+  
+  width: min-content;
+
+  gap: 0.3rem;
 }
 
 
