@@ -74,6 +74,10 @@ main {
   text-decoration: none;
 }
 
+/* this might be hard to read */
+/* but this selects the link inside the navbar */
+/* the :visited tag then selects the link which has already been visited */
+/* tldr: selects pre-visited links in nav */
 #main-nav>ul>li>a:visited {
   color: rgb(169, 169, 141);
   text-decoration: none;

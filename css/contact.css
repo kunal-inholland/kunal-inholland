@@ -6,6 +6,10 @@ form {
   flex-grow: 1;
 }
 
+
+/* this code is from pricing.css */
+/* I didnt need the whole css file */
+/* so I copied this */
 #products {
   display: flex;
   flex-direction: column;

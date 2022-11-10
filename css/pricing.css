@@ -1,5 +1,8 @@
 table,
 td {
+  /* this puts a "double border" */
+  /* that is simply because one border is applied to table */
+  /* other one is applied to each cell */
   border: 1px solid white;
 }
 

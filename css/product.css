@@ -1,5 +1,8 @@
 #main {
   display: grid;
+  
+  /* this is like an excel spreadsheet */
+  /* each letter is one big block */
   grid-template-areas:
     "b a c"
     "b a c"
