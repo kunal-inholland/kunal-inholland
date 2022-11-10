@@ -1,0 +1,5 @@
+Student name: Kunal Dandekar
+Student number: 698936
+Student class: IT1A
+URL website: https://assignment.piguy.me/
+URL student GitHub repository: https://github.com/RocKing1001/inholland-webmarkup-assignment
