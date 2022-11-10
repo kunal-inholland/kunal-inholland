@@ -1,0 +1,55 @@
+/* tablet */
+@media only screen and (max-width: 1280px) and (min-width: 480px) {
+  .video-wrapper>video {
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column-reverse;
+  }
+
+  .articles {
+    flex-direction: column-reverse;
+  }
+
+  #techlist {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+}
+
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+  #header-content>img {
+    display: none;
+  }
+
+  #header-menu {
+    display: flex;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+
+  .video-wrapper {
+    width: 100%;
+    display: none;
+  }
+
+  main {
+    flex-direction: column-reverse;
+  }
+
+  .articles {
+    flex-direction: column-reverse;
+  }
+
+  #techlist {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

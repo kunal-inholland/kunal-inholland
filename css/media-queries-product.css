@@ -1,0 +1,67 @@
+/* tablet */
+@media only screen and (max-width: 1280px) and (min-width: 480px) {
+  #main {
+    display: grid;
+    grid-template-areas:
+      "a b"
+      "a b"
+      "c b"
+      "c e"
+      "c e"
+      "c e"
+      "f f"
+      "f f";
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .product-article:nth-child(4) {
+    display: none;
+  }
+
+  #imgshow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .vrworkout-img:nth-child(3) {
+    display: none;
+  }
+
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+  #main {
+    display: grid;
+    grid-template-areas:
+      "e"
+      "c"
+      "b"
+      "a";
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .product-article:nth-child(4),
+  .product-article:nth-child(6) {
+    display: none;
+  }
+
+  #imgshow {
+    grid-template-columns: unset;
+    gap: 12px;
+  }
+  
+  
+  #header-content>img {
+    display: none;
+  }
+
+  #header-menu {
+    display: flex;
+  }
+
+  #main-nav {
+    display: none;
+  }
+}

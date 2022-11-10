@@ -1,0 +1,165 @@
+<!-- page with articles and most wanted sport innovations -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Noah Dultin Sports and Tech</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media-queries.css">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+
+  <!-- this tells the browser to respect the device width and ignore the original pixel density. Making the website readable on mobile browsers and making it behave consistently across browsers -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Kunal Dandekar">
+  <meta name="keywords" content="tech,future,sports,workout,fitness">
+  <meta name="description" content="A quick guide to modern tech innovations">
+</head>
+
+<body>
+  <header id="page-header">
+    <section id="header-content">
+      <img src="./img/logo.svg" alt="logo">
+      <h1>Noah Dultin Sports and Tech</h1>
+      <h2>future of sport tech</h2>
+    </section>
+    <section id="header-menu">
+
+      <button id="hamburger">
+
+        <!-- svg for hamburger menu -->
+        <svg viewBox="0 0 100 80" width="30" height="30">
+          <rect width="100" height="10"></rect>
+          <rect y="30" width="100" height="10"></rect>
+          <rect y="60" width="100" height="10"></rect>
+        </svg>
+      </button>
+
+      <nav id="menu-links">
+        <a href="./product.html">product</a>
+        <a href="./pricing.html">pricing</a>
+        <a href="./contact.html">contact</a>
+      </nav>
+    </section>
+  </header>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="./product.html">Product</a></li>
+      <li><a href="./pricing.html">Pricing</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="video-wrapper">
+
+    <video autoplay muted loop id="product-vid">
+      <!-- fallback when it does not work -->
+      Video tag is not available in this browser
+      <source src="./video/product_video.mp4" type="video/mp4">
+    </video>
+  </section>
+  <main>
+    <section class="articles">
+
+
+      <article class="product">
+        <section class="article-text">
+          <header class="article-title">
+            <h3>
+              Fitbit Inspire 3
+            </h3>
+          </header>
+          <p>
+            The <strong>Fitbit Inspire 3</strong> is one of the best fitness trackers on the market, especially for its
+            price of <em>&euro; 100</em>.
+            This device
+            has many features that are perfect for tracking your fitness progress, such as sleep tracking, heart rate
+            monitoring,
+            and step counting. Additionally, the Fitbit Inspire 3 boasts a 10-day battery life and water resistance up
+            to 50 meters,
+            making it a great choice for those who want a reliable fitness tracker. Plus, with the Fitbit app you can
+            receive
+            notifications on your smartphone without having to constantly check your device.
+          </p>
+          <footer>
+            <a class="order-btn" href="https://www.amazon.nl/dp/B0B6WRFY5S" target="_blank">order product</a>
+          </footer>
+        </section>
+        <img src="./img/fitbit_inspire_3.jpg" class="article-img" alt="fitbit inspire 3">
+      </article>
+
+
+      <article class="product">
+        <section class="article-text">
+          <header class="article-title">
+            <h3>
+              Pinetime
+            </h3>
+          </header>
+          <p>
+            Are you tired of your smartwatch not being able to do everything you want it to? Well,
+            <strong>Pinetime</strong> is the watch
+            for you!
+            This watch is specifically designed for developers who want to extend its functionality. You can order a dev
+            kit and use
+            it to add all sorts of new features to the watch. Plus, at only <em>&euro; 30</em>, it's a great value for
+            anyone who
+            wants to get
+            the most out of their smartwatch.
+          </p>
+          <footer>
+            <a class="order-btn" href="https://www.pine64.org/pinetime/" target="_blank">order product</a>
+          </footer>
+        </section>
+        <img src="./img/pinetime-slider-v2.png" class="article-img" alt="pine time">
+
+      </article>
+
+
+
+      <article class="product">
+        <section class="article-text">
+          <header class="article-title">
+            <h3>
+              MI Band 6
+            </h3>
+          </header>
+          <p>
+            Are you on a tight budget but still want a quality fitness tracker? Look no further than the <strong>MI Band
+              6</strong>. This
+            affordable
+            tracker has an impressive AMOLED display and 30 different workout trackers to choose from. You can also use
+            it to
+            regulate your breathing, set reminders, and receive calls and notifications from your smartphone. Best of
+            all, it only
+            costs <em>&euro; 40</em>. So don't miss out on this great deal!
+
+          </p>
+          <footer>
+            <a class="order-btn" href="https://www.amazon.nl/-/en/dp/B091G3FLL7" target="_blank">order product</a>
+          </footer>
+        </section>
+        <img src="./img/mi_band_6.jpg" class="article-img" alt="product1">
+      </article>
+
+
+    </section>
+    <aside id="techlist">
+      <h3>Best fitness trackers</h3>
+      <ol>
+        <li>Samsung Galaxy Fit 2</li>
+        <li>Fossil Gen 6</li>
+        <li>Samsung Galaxy Watch 5</li>
+        <li>Fitbit Versa 2</li>
+        <li>Apple Watch Series 8</li>
+      </ol>
+    </aside>
+  </main>
+
+  <section id="cookies">
+    Cookie statement
+  </section>
+
+  <footer id="pagefooter">&copy; 2022 Kunal Dandekar</footer>
+
+</body>
+
+</html>

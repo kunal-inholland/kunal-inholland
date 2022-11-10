@@ -1,0 +1,38 @@
+/* tablet */
+@media only screen and (max-width: 1280px) and (min-width: 480px) {
+  #pricing-info {
+    flex-direction: column;
+  }
+  #products {
+    flex-direction: row;
+  }
+  .vrworkout-img:nth-child(1) {
+    display: none;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+  #pricing-info {
+    flex-direction: column;
+  }
+  #products {
+    flex-direction: column;
+  }
+  
+  #article-info {
+    display: none;
+  }
+  
+  #header-content>img {
+    display: none;
+  }
+
+  #header-menu {
+    display: flex;
+  }
+
+  #main-nav {
+    display: none;
+  }
+}
