@@ -1,0 +1,21 @@
+#contact-main {
+  display: flex;
+}
+
+form {
+  flex-grow: 1;
+}
+
+#products {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#products>a>img {
+  width: 14rem;
+}
+
+#article-info {
+  padding: 14px;
+}

@@ -141,8 +141,6 @@ section.image {
 }
 
 .article-img {
-  width: 20%;
-  height: auto;
   max-width: 8rem;
   border-radius: 12px;
 }

@@ -1,0 +1,26 @@
+/* tablet */
+@media only screen and (max-width: 1280px) and (min-width: 480px) {
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+  #contact-main {
+    flex-direction: column;
+  }
+
+  #products {
+    flex-direction: column;
+  }
+  
+  #header-content>img {
+    display: none;
+  }
+
+  #header-menu {
+    display: flex;
+  }
+
+  #main-nav {
+    display: none;
+  }
+}
