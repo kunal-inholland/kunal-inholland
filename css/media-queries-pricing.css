@@ -13,6 +13,11 @@
 
 /* mobile */
 @media only screen and (max-width: 480px) {
+  main {
+    max-width: 100vw;
+    overflow: scroll;
+  }
+  
   #pricing-info {
     flex-direction: column;
   }
