@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Notable";
+  src: url("../fonts/Notable-Regular.woff") format("woff");
+}
+
+
 * {
   margin: 0;
 }
@@ -12,6 +18,7 @@ body {
 #page-header {
   display: flex;
   flex-direction: row;
+  font-family: 'Notable';
 }
 
 #header-content {
@@ -22,6 +29,10 @@ body {
   margin-top: 12px;
   margin-bottom: 12px;
   text-align: center;
+  letter-spacing: 5px;
+  line-height: 1.5rem;
+  text-indent: 1rem;
+  word-spacing: 1rem;
 }
 
 #header-menu {
@@ -83,6 +94,11 @@ main {
   text-decoration: none;
 }
 
+/* global css for links */
+a::selection, a:link {
+  color: rgb(208, 208, 79);
+}
+
 #product-vid {
   height: 300px;
 }
@@ -96,6 +112,7 @@ main {
   background-color: #FA0;
   color: #FFF;
   opacity: 0.5;
+  z-index: 9999;
 }
 
 .video-wrapper {
@@ -126,6 +143,9 @@ section.image {
 .product {
   background-color: #08080f;
   color: aliceblue;
+  border-style: double;
+  border-color: #131420;
+  border-width: 6px;
   border-radius: 12px;
   display: flex;
   flex-direction: row;
@@ -160,7 +180,7 @@ section.image {
   width: 34rem;
 }
 
-#techlist > h3 {
+#techlist>h3 {
   margin-bottom: 12px;
 }
 

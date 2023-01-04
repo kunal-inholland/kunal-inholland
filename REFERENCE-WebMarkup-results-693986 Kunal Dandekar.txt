@@ -1,0 +1,139 @@
+Used files:
+698936 Kunal Dandekar\index.html
+698936 Kunal Dandekar\product.html
+698936 Kunal Dandekar\pricing.html
+698936 Kunal Dandekar\contact.html
+698936 Kunal Dandekar\css\style.css
+698936 Kunal Dandekar\css\media-queries.css
+698936 Kunal Dandekar\css\product.css
+698936 Kunal Dandekar\css\media-queries-product.css
+698936 Kunal Dandekar\css\pricing.css
+698936 Kunal Dandekar\css\media-queries-pricing.css
+698936 Kunal Dandekar\css\contact.css
+698936 Kunal Dandekar\css\media-queries-contact.css
+All required html-files present: no
+
+Basic HTML: 11 points
+Advanced HTML: 11 points
+Basic CSS: 1 points
+Advanced CSS: 1 points
+Symantec Fundamentals: 1 points
+Final Grade: 25
+
+Basic HTML (11 points)
+- sufficient items
+	Uses HTML5 doctype.: pass
+	Uses head tag.: pass
+	Uses page title element.: pass
+	Uses body tag.: pass
+	Uses h1 element.: pass
+	Uses h2 element.: pass
+	Uses paragraph element: pass
+	Uses copyright info in the footer.: pass
+	Uses an anchor element.: pass
+	Uses img element with an image.: pass
+	Uses ordered list.: pass
+	Uses an unordered list.: pass
+- excellent items
+	All items from sufficient are passed.: pass
+	Is not using embedded style.: pass
+	Is not using inline style.: pass
+	Uses all entities right ...: pass
+	Uses img folder for all images.: pass
+	Uses alt attributes for all images.: pass
+	Uses title attributes for all images.: fail - FIXED
+	Uses figcaption element.: pass
+	Uses figure element.: pass
+	Uses table tag.: pass
+	Uses table head.: pass
+
+Advanced HTML (11 points)
+- sufficient items
+	Is not using tag div.: pass
+	Uses link attribute with value 'stylesheet' for the stylesheet.: pass
+	Uses location attribute with an URL value for the stylesheet.: pass
+	Uses section tag.: pass
+	Uses header tag.: pass
+	Uses article tag.: pass
+	Uses aside tag.: pass
+	Uses nav tag.: pass
+	Uses footer tag.: pass
+	Uses form tag.: pass
+	Uses em tag.: pass
+- excellent items
+	All items from sufficient are passed.: pass
+	Uses type attribute with value 'text/css' for the stylesheet.: fail - FIXED
+	Uses favicon.: pass
+	Uses css folder (lowercase).: pass
+	Uses the right extension for stylesheets (lowercase).: pass
+	Uses strong tag.: pass
+	Uses 2 different formats for video (MP4 and OGG).: -
+	Uses a label tag in the form.: pass
+	Uses legend tag in the form.: pass
+	Uses input tag with attribute type and value email.: pass
+	Uses input tag with attribute type and value submit.: pass
+
+Basic CSS (1 points)
+- sufficient items
+BC1	Design is Responsive.: pass
+BC2	Uses absolute units in css (px).: pass
+BC3	Uses at least 7 different color properties in hexadecimal.: pass
+BC4	Uses at least one comment in CSS.: pass
+BC5	Uses property letter-spacing.: fail - FIXED
+BC6	Uses property line-height.: fail - FIXED
+BC7	Uses property word-indent.: fail - FIXED
+BC8	Uses property word-spacing.: fail - FIXED
+- excellent items
+	All items from sufficient are passed.: fail
+	Uses font family 'Notable', designed by Eli Block, Hana Tanimura, Noemie Le Coz from Google fonts.: fail - FIXED
+	Uses print color Pantome 123C with CMYK property. (Color in RGB is #FFC72B): -
+	Uses property text-transform in uppercase.: fail
+	Uses relative units in css (em, rem).: pass
+	Uses the property font-family with value 'Arial', 'Helvetica' and 'sans-serif' as default font for the body tag.: pass
+	Uses the property font-family with value Notable.: fail - FIXED
+
+Advanced CSS (1 points)
+- sufficient items
+AC1	 Is not using property value !important.: pass
+AC2	 Uses pseudo-class mouse over link.: pass
+AC3	 Uses pseudo-class selected link.: fail - FIXED
+AC4	 Uses selecting elements by , (comma).:  -
+AC5	 Uses selecting elements by a space.: -
+AC6	 Uses the property border-color.: fail - FIXED
+AC7	 Uses the property border-style with value double.: fail - FIXED
+AC8	 Uses the property border-width.: fail - FIXED
+- excellent items
+ACE1	All items from sufficient are passed.: fail - FIXED
+ACE2	Uses at least 2 position properties (static, absolute, relative or fixed).: fail
+ACE3	Uses float property.: fail
+ACE4	Uses pseudo-class first-child to color the first column #FF0 from a table.: fail
+ACE5	Uses pseudo-class nth-child to color the even horizontal lines the background color #CFF and odd lines #FFF from a table.: pass
+ACE6	Uses pseudo-element first-letter.: fail
+ACE7	Uses selecting elements by a + (plus).: -
+ACE8	Uses selecting elements by a > (bigger sign).: -
+
+Symantec Fundamentals (1 points)
+- sufficient items
+SY1	 Is not using front-end libraries like bootstrap, w3.css etc.: -
+SY2	 Is not using tag br.: pass
+SY3	 Is not using tag hr.: pass
+SY4	 Uses attribute charset utf-8.: fail - FIXED
+SY5	 Uses author attribute value.: pass
+SY6	 Uses property z-index for a 'cookies' message with value 9999.: - FIXED
+SY7	 Uses tabs for nestled elements.: -
+SY8	 Uses the property display to hide content for different devices.: -
+SY9	 CSS is validated with http://jigsaw.w3.org/css-validator, with profile 'CSS level 3 + SVG' without errors.: ?
+SY10	HTML 5 is validated with https://validator.w3.org without errors.: ?
+- excellent items
+	All items from sufficient are passed.: fail - FIXED
+	Uses media queries for at least 3 different devices.: -
+	Uses closing tags for all single and paired tags in the right way.: -
+	Uses description attribute value with 50–160 characters.: pass
+	Uses keywords attribute with 5 keywords.: pass
+	Uses language attribute.: pass
+	Uses flex-grow property.: -
+	Uses flex-shrink property.: -
+	Uses grid-template-areas property.: -
+	CSS is validated with http://jigsaw.w3.org/css-validator, with profile 'CSS level 3 + SVG' without warnings.: ?
+	HTML 5 is validated with https://validator.w3.org without warnings.: ?
+
